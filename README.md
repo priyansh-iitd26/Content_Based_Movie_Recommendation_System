@@ -1,7 +1,32 @@
 # Content-based Movie Recommendation System
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Dataset](#dataset)
+- [Project Files](#project-files)
+- [How It Works](#how-it-works)
+- [Setup Instructions](#setup-instructions)
+- [Deployment Challenges](#deployment-challenges)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+
+---
+
 **Project Overview**
 
 This project is a content-based movie recommendation system developed using the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle. It allows users to input a movie name and receive a list of 5 similar movies based on content features such as genres, cast, crew, and plot descriptions. The recommendation model has been serialized into movies.pkl and similarity.pkl files for efficient deployment on Render or Streamlit.
+
+**Features**
+
+- Content-based recommendation system using movie metadata.
+- Suggestions based on genres, cast, crew, and plot similarity.
+- Interactive interface built with Python.
+
+**Dataset**
+
+The recommendation model was built using the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). It contains detailed metadata about movies, including genres, cast, crew, and keywords.
 
 **Project Files**
 
