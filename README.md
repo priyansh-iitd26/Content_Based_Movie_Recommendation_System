@@ -39,8 +39,6 @@ Movie-Recommender-System/
 ├── requirements.txt                # Dependencies required for the project
 ├── README.md                       # Project documentation
 ```
-**Note:** 
-Due to file size limitations on GitHub, the similarity.pkl file (176 MB) has not been included in the repository. This file is essential for running the recommendation system. Instructions to generate it are provided below.
 
 **How it works**
 1. *Data preprocessing*:
@@ -63,22 +61,10 @@ cd movie-recommender-system
 pip install -r requirements.txt
 ```
 
-3. Generate similarity.pkl:
-   
-- Open the Jupyter Notebook movie-recommender-system.ipynb and run the cells to create the similarity.pkl file. Save the file in the project directory.
-
-
-4. Run the application:
+3. Run the application:
 ```
 python app.py
 ```
-
-**Deployment Challenges**
-
-While the project is functional locally, deployment on Streamlit Cloud has been challenging due to the size of the similarity.pkl file (176 MB), which exceeds GitHub's file size limit. Attempts to use Git LFS were unsuccessful so far. Possible solutions being explored include:
-
-- Hosting large files on an external storage service (e.g., AWS S3, Google Drive) and fetching them during app startup.
-- Splitting the similarity.pkl file into smaller parts for easier upload.
 
 **Contributing**
 
