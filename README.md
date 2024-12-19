@@ -8,7 +8,6 @@
 - [Project Files](#project-files)
 - [How It Works](#how-it-works)
 - [Setup Instructions](#setup-instructions)
-- [Deployment Challenges](#deployment-challenges)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
